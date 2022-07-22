@@ -1,5 +1,5 @@
 import React from "react";
-import Perguntas from "./Perguntas";
+import Perguntas from "./perguntas/Perguntas";
 
 function FlashCards() {
     const logo = "assets/img/image1.png";

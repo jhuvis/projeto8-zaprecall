@@ -1,0 +1,137 @@
+.perguntas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+  }
+  
+  .pergunta{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 300px;
+    height: 65px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    margin-bottom: 15px;
+  }
+  
+  .pergunta p{
+    font-family: 'Recursive';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    margin-left: 15px;
+  }
+  
+  .pergunta img
+  {
+    margin-right: 15px;
+  }
+  
+  .bottom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    height: 70px;
+    background: #FFFFFF;
+    box-shadow: 0px -4px 6px rgba(0, 0, 0, 0.05);
+  }
+  
+  .bottom p{
+    font-family: 'Recursive';
+  
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height */
+  
+  color: #333333;
+  
+  }
+  
+  .carta {
+    width: 299px;
+    height: 131px;
+  
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+  
+    background: #FFFFD5;
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    margin-bottom: 15px;
+  }
+
+  .risca1{
+    text-decoration-line: line-through;
+    color: #FF3030;
+  }
+
+  .risca2{
+    text-decoration-line: line-through;
+    color: #FF922E;
+  }
+
+ .risca3{
+    text-decoration-line: line-through;
+    color: #2FBE34;
+  }
+  
+  .carta p{
+    font-family: 'Recursive';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  margin: 10px;
+  }
+  
+  .carta img{
+    margin-left: 265px;
+    margin-bottom: 5px;
+  }
+  
+  .botoes{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 299px;
+  }
+  
+  .botoes button{
+    width: 85.17px;
+    height: 37.17px;
+    border-radius: 5px;
+    font-family: 'Recursive';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #FFFFFF;
+    margin: 7px;
+    border: none;
+  }
+  
+  .vermelho{
+    background: #FF3030;
+  }
+  
+  .laranja {
+    background: #FF922E;
+  }
+  
+  .verde {
+    background: #2FBE34;
+  }
