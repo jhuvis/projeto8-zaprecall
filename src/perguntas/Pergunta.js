@@ -1,20 +1,23 @@
 import React from "react";
+import imgvira from "../assets/img/VectorVira.png";
+import imgverde from "../assets/img/verde.png";
+import imglaranja from "../assets/img/laranja.png";
+import imgvermelho from "../assets/img/vermelho.png";
+import imgvector from "../assets/img/Vector.png";
 
-function Pergunta({id, img, questao, resposta, index})
+function Pergunta(props)
 {
-    const imgvira = "assets/img/VectorVira.png";
-    const imgverde = "assets/img/verde.png";
-    const imglaranja = "assets/img/laranja.png";
-    const imgvermelho = "assets/img/vermelho.png";
-    const [pergunta, setPergunta] = React.useState("carta");
+    const {id, questao, resposta, judas, index} = {...props};
+    const [pergunta, setPergunta] = React.useState("pergunta");
     const [texto, setTexto] = React.useState("pergunta " + (index + 1));
-    const [botao, setBotao] = React.useState("");
-    const [responder, setResponder] = React.useState("botoes");
+    const [botao, setBotao] = React.useState(imgvector);
+    const [responder, setResponder] = React.useState("none");
     const [decora, setDecora] = React.useState("");
+    
 
     function virar()
     {
-        if(botao === img)
+        if(botao === imgvector)
         {
             setPergunta("carta");
             setTexto(questao);
@@ -38,6 +41,8 @@ function Pergunta({id, img, questao, resposta, index})
             setDecora("risca1");
             setBotao(imgvermelho);
             setResponder("none");
+            judas(index, "vermelho");
+            
         }
         if(res === "quase")
         {
@@ -46,6 +51,8 @@ function Pergunta({id, img, questao, resposta, index})
             setDecora("risca2");
             setBotao(imglaranja);
             setResponder("none");
+            judas(index, "laranja");
+            
         }
         if(res === "zap")
         {
@@ -54,6 +61,8 @@ function Pergunta({id, img, questao, resposta, index})
             setDecora("risca3");
             setBotao(imgverde);
             setResponder("none");
+            judas(index, "verde");
+            
         }
     }
 

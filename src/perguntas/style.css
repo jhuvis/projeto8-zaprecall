@@ -4,6 +4,7 @@
     align-items: center;
     flex-direction: column;
     margin-top: 50px;
+    margin-bottom: 100px;
   }
   
   .pergunta{
@@ -33,34 +34,10 @@
     margin-right: 15px;
   }
   
-  .bottom{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    position: fixed;
-    bottom: 0px;
-    width: 100%;
-    height: 70px;
-    background: #FFFFFF;
-    box-shadow: 0px -4px 6px rgba(0, 0, 0, 0.05);
-  }
-  
-  .bottom p{
-    font-family: 'Recursive';
-  
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 22px;
-  /* identical to box height */
-  
-  color: #333333;
-  
-  }
   
   .carta {
     width: 299px;
-    height: 131px;
+    height: 171px;
   
     display: flex;
     align-items: flex-start;

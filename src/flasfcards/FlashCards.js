@@ -1,8 +1,9 @@
 import React from "react";
-import Perguntas from "./perguntas/Perguntas";
+import Perguntas from "../perguntas/Perguntas";
+import logo from "../assets/img/image1.png";
+import "./style.css";
 
 function FlashCards() {
-    const logo = "assets/img/image1.png";
     
 
     return (

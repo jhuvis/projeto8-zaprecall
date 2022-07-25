@@ -1,0 +1,66 @@
+.msg{
+    font-family: 'Recursive';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+
+
+color: #333333;
+}
+
+.t1{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.t1 p{
+    margin: 5px;
+}
+ .t1 img{
+    margin: 5px;
+ }
+
+ .bottom div{
+    margin-bottom: 7px;
+ }
+
+ span{
+    font-family: 'Recursive';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+text-align: center;
+
+color: #333333;
+ }
+
+.bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    height: auto;
+    background: #FFFFFF;
+    box-shadow: 0px -4px 6px rgba(0, 0, 0, 0.05);
+    padding: 20px;
+  }
+  
+  .bottom p{
+    font-family: 'Recursive';
+  
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height */
+  
+  color: #333333;
+  
+  }

@@ -1,4 +1,4 @@
-import Iniciar from "./Iniciar";
+import Iniciar from "./iniciar/Iniciar";
 
 function App() {
     return (
